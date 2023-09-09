@@ -161,19 +161,19 @@ class UserResource extends Resource
         ];
     }
 
+
+    protected static function getTitle(): string
+    {
+        return __('labels.users.list');
+    }
+
     protected static function getNavigationLabel(): string
     {
-        return __('labels.users.list');
+        return static::getTitle();
     }
-
-    protected function getTitle(): string
-    {
-        return __('labels.users.list');
-    }
-
 
     public static function getPluralLabel(): string
     {
-        return __('labels.departments.list');
+        return static::getTitle();
     }
 }
