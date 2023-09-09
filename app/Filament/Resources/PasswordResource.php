@@ -43,8 +43,8 @@ class PasswordResource extends Resource
                         ->label(__('attr.private'))
                         ->placeholder(__('attr.private')),
                     Forms\Components\TextInput::make('public')
-                        ->label(__('attr.private'))
-                        ->placeholder(__('attr.private')),
+                        ->label(__('attr.public'))
+                        ->placeholder(__('attr.public')),
                     TableRepeater::make('items')
                         ->label(__('attr.passwords'))
                         ->emptyLabel(__('attr.no_contect'))
