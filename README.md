@@ -20,12 +20,9 @@
 
 ## Setup
 
-```
-    git clone
-```
 
 ```
-    cd filamnet-password-manager
+    cd project
 ```
 
 ```
